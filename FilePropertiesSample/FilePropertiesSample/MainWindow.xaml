@@ -1,0 +1,47 @@
+﻿<Window x:Class="FileProperties_Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileProperties_Sample"
+        mc:Ignorable="d"
+        Title="File Properties" Height="632.612" Width="562.295">
+    <Grid Margin="0,0,11,8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="265*"/>
+            <ColumnDefinition Width="278*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="textBoxInput" Height="23" Margin="18,42,108,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Button x:Name="buttonDisplay" Content="Display" Margin="0,42,21,0" VerticalAlignment="Top" Height="23" Click="buttonDisplay_Click" HorizontalAlignment="Right" Width="75" Grid.Column="1"/>
+        <Label Content="Enter name of folder to be examined and click Display" HorizontalAlignment="Left" Margin="18,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.751,-3.281" Height="26" Width="295" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBoxFolder" Height="23" Margin="22,101,148,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <Button x:Name="buttonUp" Content="Up" HorizontalAlignment="Right" Margin="0,101,58,0" VerticalAlignment="Top" Width="75" Height="23" Click="buttonUp_Click" Grid.Column="1"/>
+        <ListBox x:Name="listBoxFiles" Margin="18,162,5,289" SelectionChanged="listBoxFiles_SelectionChanged"/>
+        <Label Content="Files" Margin="22,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.751,-3.281" HorizontalAlignment="Left" Width="33" Height="26"/>
+        <ListBox x:Name="listBoxFolders" Margin="10,162,21,289" MouseDoubleClick="listBoxFolders_MouseDoubleClick" Grid.Column="1"/>
+        <Label Content="Folders" Margin="11,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.751,-3.281" Height="26" Grid.Column="1" HorizontalAlignment="Left" Width="48"/>
+        <TextBox x:Name="textBoxFileName" Height="23" Margin="91,0,33,235" TextWrapping="Wrap" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBoxFileSize" Height="23" Margin="91,0,1,199" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="textBoxLastWriteTime" Height="23" Margin="157,0,1,165" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="textBoxCreationTime" Height="23" Margin="0,0,33,201" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="136" Grid.Column="1"/>
+        <TextBox x:Name="textBoxLasAccessTime" HorizontalAlignment="Right" Height="23" Margin="0,0,33,165" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="136" Grid.Column="1"/>
+        <Label Content="File name" HorizontalAlignment="Left" Margin="24,0,0,233" VerticalAlignment="Bottom" Height="25" Width="63"/>
+        <Label Content="File Size" HorizontalAlignment="Left" Margin="25,0,0,198" VerticalAlignment="Bottom" Height="26" Width="53"/>
+        <Label Content="Last modification time" Margin="24,0,0,165" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="131" Height="25"/>
+        <Label Content="Creation time" HorizontalAlignment="Right" Margin="0,0,169,200" VerticalAlignment="Bottom" Height="26" Width="85" Grid.Column="1"/>
+        <Label Content="Last access time" HorizontalAlignment="Right" Margin="0,0,171,164" VerticalAlignment="Bottom" Height="25" Width="71" Grid.Column="1"/>
+        <GroupBox Header="Details of Selected File" Margin="18,0,21,139" RenderTransformOrigin="0.5,0.5" Height="141" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <GroupBox Header="Contents of folder" Margin="10,70,10,10" Grid.ColumnSpan="2"/>
+        <GroupBox Header="Move, Delete or Cope File" Margin="18,0,21,26" Height="108" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
+            <TextBox x:Name="textBoxNewLocation" Height="23" Margin="95,52,15,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        </GroupBox>
+        <Button x:Name="buttonMoveTo" Content="Move To" HorizontalAlignment="Left" Margin="35,0,0,84" VerticalAlignment="Bottom" Width="75" Click="buttonMoveTo_Click" Height="20"/>
+        <Button x:Name="buttonCopyTo" Content="Copy To" HorizontalAlignment="Left" Margin="126,0,0,84" VerticalAlignment="Bottom" Width="75" Click="buttonCopyTo_Click" Height="20"/>
+        <Button x:Name="buttonDelete" Content="Delete" HorizontalAlignment="Left" Margin="1,0,0,84" VerticalAlignment="Bottom" Width="75" Click="buttonDelete_Click" Grid.Column="1" Height="20"/>
+        <Label Content="New Location" HorizontalAlignment="Left" Margin="36,0,0,42" VerticalAlignment="Bottom" RenderTransformOrigin="0.132,-1.158" Height="26" Width="82"/>
+
+    </Grid>
+</Window>
