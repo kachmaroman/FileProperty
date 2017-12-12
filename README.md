@@ -21,5 +21,5 @@ Simple file manager application.
 </p> 
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/-3y8zqdtstw0/WjBLrnAIMfI/AAAAAAAADXQ/CAkSeqguA0c3wQfnl_dQBCqSmejpMD21gCL0BGAs/w530-d-h609-n-rw/fifthScreen.png />
+  <img src="https://lh3.googleusercontent.com/-3y8zqdtstw0/WjBLrnAIMfI/AAAAAAAADXQ/CAkSeqguA0c3wQfnl_dQBCqSmejpMD21gCL0BGAs/w530-d-h609-n-rw/fifthScreen.png" />
 </p> 
