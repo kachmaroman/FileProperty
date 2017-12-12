@@ -2,8 +2,8 @@
 
 Simple file manager application.
 
-# Screenshot
+# Screenshots
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/--i4I_x204Ng/WjBEV6lzQAI/AAAAAAAADUw/vkrKl2eeLfcKqoXbAMcYuVMPLw7leXcewCL0BGAs/w530-d-h609-n-rw/screen.png" />
+  <img src="https://lh3.googleusercontent.com/-TC6trgUzRqA/WjBI3JcAA-I/AAAAAAAADVU/oVAm_e5VuyEgSwi7oQY59s95tECfB0X_QCL0BGAs/w530-d-h607-n-rw/firstScreen.png" />
 </p>
