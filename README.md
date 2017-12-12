@@ -19,3 +19,7 @@ Simple file manager application.
 <p align="center">
   <img src="https://lh3.googleusercontent.com/-hXc73OTqtng/WjBKfGFugeI/AAAAAAAADWY/oa3EBybqJ10CiAQ5_n2s0uOSb09lcxCNACL0BGAs/w530-d-h609-n-rw/fourthScreen.png" />
 </p> 
+
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/-3y8zqdtstw0/WjBLrnAIMfI/AAAAAAAADXQ/CAkSeqguA0c3wQfnl_dQBCqSmejpMD21gCL0BGAs/w530-d-h609-n-rw/fifthScreen.png />
+</p> 
